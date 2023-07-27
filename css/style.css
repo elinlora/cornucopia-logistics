@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+
+}
+
+body {
+  min-height: 100vh !important;
+  min-width: 100% !important;
+  font-family: Arial;
+  font-size: 1rem;
+  color: #fff;
+  background-color: cornflowerblue;
+}
+
+header > .container {
+  display: flex;
+  justify-content: center;
+  padding: 1.2em 0;
+}
+
+.navigation {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;;
+}
