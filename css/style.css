@@ -16,14 +16,16 @@ body {
   font-size: 1rem;
   color: #fff;
   background-color: cornflowerblue;
+  width: 90%;
+  margin: 0 auto;
 }
 
 header > .container {
   display: flex;
   justify-content: center;
   padding: 1.2em 0;
-  width: 90%;
-  margin: 0 auto;
+  /* width: 90%;
+  margin: 0 auto; */
 }
 
 .navigation {
